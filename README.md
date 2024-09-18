@@ -5,7 +5,7 @@ Supervised Kaggle Dosyasının Linki: https://www.kaggle.com/code/melihak635442/
 
 Unsupervised Kaggle Dosyasının Linki: https://www.kaggle.com/code/melihak635442/melihneounsupervisedml
 
-Nasa'nın Dünyaya yakın cisimleri tespit ettiği ve bunları kütlesi, yarıçapı, hızı, uzaklığı ve tehlikeli olup olmadığını veri setinde belirtmişler.
+Nasa'nın Dünyaya yakın cisimleri tespit ettiği ve bunları kütlesi, yarıçapı, hızı, uzaklığı ve tehlikeli olup olmadığına göre ayırdığı bir veri seti kullandım.
 Bu veriler ışığında Gözetimli Makinme Öğrenmesi olarak Logistic Regression algoritmasını kullanmaya karar verdim. Bu algoritmayı seçme sebebim elimdeki verilerin hepsinin pozitif korelasyona sahip olmamasıydı.
 Gözetimsiz Makine Öğrenmesi olarak ise K-Means algoritmasını kullanmaya karar verdim. Bu algoritmayı seçmeden önce anomali tespiti yapan algoritmaları denedim ancak verilerimde pek anomali bulunmmuyordu. Belirli verileri sağlayan cisimler tehlikeli olarak sınıflanıyordu. Bu sebeple K-Means algoritmasını kullandım.
 
