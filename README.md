@@ -28,9 +28,11 @@ Gözetimsiz Öğrenme kısmında da veri setini aynı şekilde temizleyip optimi
 K-Means algoritmasını kullanmak için öncelikle Elbow Metodu ile N küme sayısının kaç olması gerektiğini buluyorum ve ilginç bir şekilde 3 değerini alıyorum.
 
 ![image](https://github.com/user-attachments/assets/35cfb28f-0788-4413-a620-8016bb95f1bf)
+
 Sonrasında modelimi veri setine uyguluyorum ve Silhouette Skoru ile Calinski-Harabasz indeksini hesaplıyorum. Burada da aynı şekilde n_clusters değişkenini 2, 3 ve 4 değerleriyle hesaplatıyorum ve 3 değerinde en yüksek skora erişiyorum.
 
 ![image](https://github.com/user-attachments/assets/dd31fbd5-9e8b-456d-9752-891907c3a1fa)
+
 Araştırdığımda ise Silhouette skorunun 0 ile 0.5 değerleri arasında olması ortalama bir başarıya sahip olduğunu gösteriyormuş. 
 
 Sonuç olarak kullandığım veri seti, Gözetimli Makine Öğrenmesi Algoritmasında daha başarılı oranlar elde etmişti fakat orada da tehlikeli olanları belirlemekteki doğruluğu yüksek değildi. Gözetimli ve Gözetimsiz algoritmalarda ortalama sonuçlar verdiğini söyleyebiliriz.
